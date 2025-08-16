@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Affiliator — Hand-Picked Tools & No-B.S. Reviews</title>
+  <meta name="description" content="Actionable reviews, comparisons, and playbooks for business tools. Simple, practical, and affiliate-supported." />
+  <link rel="icon" href="/assets/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --ink:#0f172a;--sub:#475569;--brand:#2563eb;--brand2:#0ea5e9;
+      --bg:#f8fafc;--card:#ffffff;--line:#e2e8f0;--ok:#16a34a
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;color:var(--ink);background:var(--bg)}
+    a{color:#0ea5e9;text-decoration:none}
+    .wrap{max-width:980px;margin:0 auto;padding:18px}
+    header{border-bottom:1px solid var(--line);background:#fff}
+    .header-row{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--ink)}
+    .brand img{height:28px}
+    nav a{padding:8px 10px;color:var(--ink)}
+    .hero{padding:38px 0}
+    .hero h1{font-size:36px;line-height:1.2;margin:0 0 10px 0}
+    .hero p{color:var(--sub);margin:0 0 16px 0}
+    .cta{display:inline-block;background:linear-gradient(90deg,var(--brand),var(--brand2));color:#fff;padding:12px 16px;border-radius:12px;font-weight:700}
+    .cta:hover{filter:brightness(.95)}
+    .grid{display:grid;grid-template-columns:1fr;gap:14px}
+    @media(min-width:820px){.grid{grid-template-columns:1fr 1fr}}
+    .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px}
+    .card h3{margin:0 0 8px 0}
+    .badge{display:inline-block;font-size:12px;padding:4px 8px;border-radius:999px;background:#dbeafe;color:#1e40af;font-weight:700}
+    .small{color:var(--sub);font-size:14px}
+    footer{border-top:1px solid var(--line);background:#fff;margin-top:40px}
+    .list{display:flex;flex-direction:column;gap:10px;margin:0;padding:0;list-style:none}
+    .row{display:flex;align-items:center;gap:10px}
+    .ok{color:var(--ok);font-weight:700}
+    .disclosure{border:1px dashed var(--line);border-radius:12px;padding:12px;background:#fff}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap header-row">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.svg" alt="Affiliator" />
+      <span>Affiliator</span>
+    </a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- HERO -->
+  <section class="hero">
+    <span class="badge">No-B.S. tool reviews for real businesses</span>
+    <h1>Hand-picked software. Clear reviews. Straightforward affiliate links.</h1>
+    <p>We test, summarize, and explain business tools so you don’t waste time. If you purchase via our links, we may earn a commission — at no extra cost to you.</p>
+    <a class="cta" href="#featured">Start with our top picks</a>
+  </section>
+
+  <!-- FEATURED REVIEWS -->
+  <section id="featured" class="grid">
+    <article class="card">
+      <h3>HubSpot CRM — Complete Review</h3>
+      <p class="small">CRM • Updated Aug 2025</p>
+      <ul class="list">
+        <li class="row">✅ All-in-one CRM + marketing basics</li>
+        <li class="row">✅ Strong free tier for small teams</li>
+        <li class="row">⚠️ Pricing scales with contacts</li>
+      </ul>
+      <div style="display:flex;gap:10px;margin-top:10px">
+        <a class="cta" href="hubspot.html">Read the review</a>
+        <!-- Replace with your affiliate link when approved -->
+        <a class="cta" style="background:#16a34a" href="https://www.hubspot.com/products/crm" target="_blank" rel="nofollow noopener">Try HubSpot</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <h3>MailerLite — Complete Review</h3>
+      <p class="small">Email Marketing • Updated Aug 2025</p>
+      <ul class="list">
+        <li class="row">✅ Simple automations + landing pages</li>
+        <li class="row">✅ Friendly pricing, good deliverability</li>
+        <li class="row">⚠️ Less “all-in-one” than a full CRM</li>
+      </ul>
+      <div style="display:flex;gap:10px;margin-top:10px">
+        <a class="cta" href="mailerlite.html">Read the review</a>
+        <!-- Replace with your affiliate link when approved -->
+        <a class="cta" style="background:#16a34a" href="https://www.mailerlite.com" target="_blank" rel="nofollow noopener">Try MailerLite</a>
+      </div>
+    </article>
+  </section>
+
+  <!-- LATEST ARTICLES (you can add more files later) -->
+  <section style="margin-top:22px" class="card">
+    <h3>Latest articles</h3>
+    <ul class="list">
+      <li><a href="hubspot.html">HubSpot CRM — Complete Review</a></li>
+      <li><a href="mailerlite.html">MailerLite — Complete Review</a></li>
+      <!-- Add: comparisons, best-of lists, how-tos -->
+    </ul>
+  </section>
+
+  <!-- DISCLOSURE -->
+  <section style="margin-top:22px" class="disclosure small">
+    <strong>Affiliate disclosure.</strong> Some links on this site are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. We only recommend tools we genuinely find useful.
+  </section>
+</main>
+
+<footer>
+  <div class="wrap" style="display:flex;flex-direction:column;gap:8px">
+    <div class="small">© <span id="year"></span> Affiliator. All rights reserved.</div>
+    <div class="small"><a href="contact.html">Contact</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></div>
+  </div>
+</footer>
+
+<script>
+  // year
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
